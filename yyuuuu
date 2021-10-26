@@ -1,0 +1,11 @@
+table = {
+    widht: 1120,
+    height: "540mm",
+    howPlace(){ if(this.height.includes("mm")){  return +this.height.replace("mm", "") * this.widht}}
+              
+}
+{widht: 1120, height: '540mm', howPlace: ƒ}
+table.howPlace
+ƒ howPlace(){ if(this.height.includes("mm")){  return +this.height.replace("mm", "") * this.widht}}
+table.howPlace()
+604800
